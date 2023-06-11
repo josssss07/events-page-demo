@@ -1,0 +1,44 @@
+#carousel{
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    margin: 0 auto 0 auto;
+    width: 90vw;
+    height: fit-content;
+    border: solid #f3e6ff;
+}
+
+#carousel::-webkit-scrollbar{
+    display: none;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.item{
+    min-width: auto;
+    min-height: auto;
+    margin: 4px;;
+
+    font-size: 5em;
+    text-align: center;
+    line-height: 20px;
+    background-color: #fefefe;
+    border-radius:10px ;
+}
+
+
+.img{
+    height:10px;
+    width: 15vh;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
